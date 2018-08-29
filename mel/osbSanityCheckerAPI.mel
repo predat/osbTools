@@ -179,7 +179,7 @@ global proc buildSanityCheckUI()
 			{
 				// Create it
 				setParent osbSanityMainColLayout;
-	            frameLayout -label $osbSanityCategories[$i] -borderStyle "etchedIn" $category;
+	            frameLayout -label $osbSanityCategories[$i] $category;
                 columnLayout($category+"cl");
 				$height += 21;
 			}
